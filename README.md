@@ -149,13 +149,13 @@ Some features I plan to add in the future:
 * GUI version using Tkinter
 
 ## Project Structure
-
+```text
 Image-Filter/
 │
 ├── main.py
 ├── requirements.txt
 └── README.md
-
+```
 ## Author
 
 Ruchit Warade
