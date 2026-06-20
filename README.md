@@ -45,7 +45,7 @@ Python 3.8+ is recommended.
 Run the script:
 
 ```bash
-python image_filter.py
+python main.py
 ```
 
 When prompted, enter the name of the image file you want to edit:
@@ -88,7 +88,7 @@ Removes all blue values from the image.
 
 ### Blur
 
-Applies a simple 3×3 averaging blur filter.
+Applies a simple 3×3 averaging blur filter.This effect is best seen with images of low resolution(less than 480p) and images with text are prefered to see this effect more effectively.
 
 ## Example
 
@@ -147,6 +147,14 @@ Some features I plan to add in the future:
 * Gaussian blur
 * Undo functionality
 * GUI version using Tkinter
+
+## Project Structure
+
+Image-Filter/
+│
+├── main.py
+├── requirements.txt
+└── README.md
 
 ## Author
 
